@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #fff;
 }
 
 header {
@@ -20,7 +19,6 @@ header h1{
     margin-left: 8rem;
     margin-top: 10px;
     float: left;
-    background-color: #B3DB95;
 }
 /*Inicío estilização do cabeçalho*/
 nav {
@@ -36,7 +34,6 @@ nav ul {
 
 nav ul li{
     float: left;
-    background-color: #B3DB95;
 }
 
 nav ul li a{
@@ -45,7 +42,6 @@ nav ul li a{
     font-family: "Inter", sans-serif;
     color: black;
     font-size: 1rem;
-    background-color: #B3DB95;
     font-weight: 400;
     line-height: 16px;
 }
@@ -123,18 +119,22 @@ nav ul li a:hover{
 
 .containerAboutWe {
   overflow: hidden;
+  margin: 6% 0 6% 0;
 }
 
 .containerAboutWe1  {
-    width: 15%; /* Adjust width as needed */
-    float: left; /* Float the elements side by side */
-    margin-left: 5%; /* Add margin if needed */
+    width: 15%;
+    float: left;
+    margin-left: 5%;
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
 }
 
 .containerAboutWe2{
     width: 48%;
     float: left;
     text-align: justify;
+    margin-left: 5%;
 }
 
 .containerAboutWe2 p {
@@ -143,8 +143,20 @@ nav ul li a:hover{
     font-size: 1.2rem;
 }
 
-footer div{
-    height: 30px;
+footer {
+    display: block;
+    height: 90px;
     width: 100%;
     background-color: #B3DB95;
+    padding: 0;
+    margin: 0;
+}
+
+footer div {
+    text-align: center;
+    height: 100%;
+}
+
+#primeiroParagrafo {
+    padding-top: 2%;
 }
