@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+#cabecalhoPrincipal {
+    position: relative;  
+    transition: all 0.3s ease; 
+}
+
 header {
     width: 100%;
     height: 75px;
@@ -48,7 +53,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #426b1f;
-    border-bottom: #426b1f;
+    /* border-bottom: #426b1f; */
 }
 /*Fim estilização do cabeçalho*/
 
@@ -76,6 +81,10 @@ nav ul li a:hover{
     padding-left: 5px;
     padding-right: 5px;
 }
+
+#cardButton:hover {
+    background-color: #B3DB95;
+}
 /**/
 .containerPrincipal {
         width: 95%;
@@ -96,6 +105,13 @@ nav ul li a:hover{
     margin-left: 5%;
     height: 100%;
     width: 40%;
+}
+#imagem01:hover {
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.05);
+}
+
+#imagem02:hover{
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.05);
 }
 
 .divImagem2{
@@ -155,6 +171,10 @@ footer {
 footer div {
     text-align: center;
     height: 100%;
+}
+
+footer p {
+    font-family: "Playfair Display", serif;
 }
 
 #primeiroParagrafo {

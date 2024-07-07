@@ -18,15 +18,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 .then(data => {
                     modalBody.innerHTML = data;
                     modal.style.display = "block";
+
+                    let closeModal = modalBody.querySelector(".close");
+
+                    closeModal.addEventListener("click", function() {
+                        modal.style.display = "none";
+                    });
                 })
                 .catch(error => console.error('Erro ao carregar o conteúdo da modal:', error));
         });
-    });
-
-    let closeModal = modal.querySelector(".close");
-
-    closeModal.addEventListener("click", function() {
-        modal.style.display = "none";
     });
 
     window.addEventListener("click", function(event) {

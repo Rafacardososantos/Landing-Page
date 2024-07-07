@@ -1,0 +1,52 @@
+.form-container {
+    height: 280px;
+    width: 22%;
+    margin: 26vh auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+}
+
+#firstDiv, #secondDiv, #thirdDiv {
+    margin: 15px 9%;
+}
+
+.name {
+    padding: 6px; 
+    margin-left: 10px;
+    width: 250px;
+}
+
+.email {
+    padding: 5px; 
+    margin-left: 10px;
+    width: 250px;
+}
+
+#thirdDiv {
+    /* margin: 15px; */
+    position: relative;
+}
+
+#thirdDiv i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+.text {
+    padding: 6px;
+    width: 250px;
+    height: 100px;
+    margin-left: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#enviar {
+    margin: 0 45%;
+    padding: 2%;
+    width: 72px;
+    font-family: 'Inter', sans-serif;
+}
